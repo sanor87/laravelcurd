@@ -1,0 +1,850 @@
+/* 
+colors: 
+001a57
+e71618
+2a5caa
+
+shape-1 : red border  + top left and bottom right radius 100
+*/
+@font-face {
+  font-family: DroidKufi-Bold;
+  src: url(../font/DroidKufi-Bold.ttf);
+}
+@font-face {
+  font-family: DroidKufi-Regular;
+  src: url(../font/DroidKufi-Regular.ttf);
+}
+@font-face {
+  font-family: droid-sans-arabic;
+  src: url(../font/droid-sans-arabic.ttf);
+}
+@font-face {
+  font-family: beinnormal;
+  src: url(../font/beinnormal.ttf);
+}
+/* general classes */
+.rtl{direction: rtl;}
+
+.shape-1 {
+  border: red 3px solid;
+  border-bottom-right-radius: 70px;
+  border-top-left-radius: 70px;
+  padding: 0 10%;
+  min-height: 130px;
+  font-family: DroidKufi-Regular;
+  font-size: 28px;
+  line-height: 45px;
+  text-overflow: unset;
+}
+
+.shape-2{
+  border: #2a5caa 3px solid;
+  border-bottom-right-radius: 70px;
+  border-top-left-radius: 70px;
+  padding: 0 10%;
+  margin: 20px auto;
+  min-height: 130px;
+  font-family: DroidKufi-Regular;
+  font-size: 28px;
+  line-height: 45px;
+  text-overflow: unset;
+ }
+
+
+/* navbar start */
+nav {
+  direction: rtl;
+  color: white;
+  min-height: 122px;
+  background-color: #001a57;
+}
+.navbar {
+  padding: 0.5rem 5rem;
+}
+@media (max-width: 1200px) {
+  .navbar {
+    padding: 0.5rem 3rem;
+  }
+}
+@media (max-width: 576px) {
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+}
+.title {
+  font-size: 25px;
+  font-family: DroidKufi-Regular;
+}
+@media (max-width: 1280px) {
+  .title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .title {
+    font-size: 18px;
+  }
+}
+@media (max-width: 576px) {
+  .title {
+    font-size: 20px;
+  }
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-family: beinnormal;
+  font-size: 25px;
+  margin-left: 17px;
+}
+@media (max-width: 1280px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 23px;
+  }
+}
+@media (max-width: 1200px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+}
+@media (max-width: 576px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+}
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: white;
+}
+/* navbar end  */
+/* banner start  */
+@media (max-width: 576px) {
+  .carousel-caption {
+    right: 5%;
+    bottom: -13px;
+    left: 5%;
+    z-index: 10;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+}
+
+.btn-danger {
+  background-color: #e71618;
+  border-color: #e71618;
+  font-size: 46px;
+  font-family: DroidKufi-Regular;
+  padding: 4px 5rem;
+}
+@media (max-width: 1200px) {
+  .btn-danger {
+    font-size: 34px;
+    padding: 4px 8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-danger {
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .btn-danger {
+    font-size: 18px;
+    padding: 4px 8rem;
+  }
+}
+@media (max-width: 368px) {
+  .btn-danger {
+    font-size: 10px;
+    padding: 4px 5rem;
+  }
+}
+/* banar end  */
+/* ميزات الدراسة start */
+.features {
+  padding-top: 50px;
+}
+/* h2 style for all docs  */
+h2 {
+  font-family: DroidKufi-Regular;
+  font-size: 48px;
+  color: #343434;
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 576px) {
+  h2 {
+    font-size: 18px;
+  }
+}
+
+.line-red {
+  background-color: #e71618;
+  height: 3px;
+  max-width: 295px;
+  margin: 47px auto;
+}
+@media (max-width: 576px) {
+  .line-red {
+    height: 1px;
+    max-width: 210px;
+    margin: 22px auto;
+  }
+}
+
+.feature {
+  min-height: 442px;
+  background-color: #001a57;
+  margin: 3rem;
+  color: white;
+  font-family: DroidKufi-Regular;
+  font-size: 32px;
+  padding: 68px 3px;
+}
+@media (max-width: 768px) {
+  .feature {
+    margin: 2rem 5rem;
+    min-height: 300px;
+    font-size: 24px;
+    padding: 22px 3px;
+  }
+}
+@media (max-width: 576px) {
+  .feature {
+    margin: 2rem;
+  }
+}
+
+.cycle-red {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  background-color: #e71618;
+  margin: auto;
+  margin-bottom: 38px;
+}
+.cycle-red img {
+  margin: 18px auto;
+}
+/* ميزات الدراسة end */
+/* مرحلة ليسانس : lisans start */
+.lisans .carousel-caption {
+  top: 12%;
+}
+@media (max-width: 1200px) {
+  .lisans .carousel-caption {
+    top: 2%;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    overflow: scroll;
+    margin-bottom: 7%;
+  }
+}
+
+.lisans h3 {
+  font-family: DroidKufi-Regular;
+  font-size: 44px;
+  color: #e71618;
+}
+@media (max-width: 1200px) {
+  .lisans h3 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 992px) {
+  .lisans h3 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .lisans h3 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 576px) {
+  .lisans h3 {
+    font-size: 18px;
+  }
+}
+
+.lisans p {
+  font-family: DroidKufi-Regular;
+  font-size: 28px;
+  line-height: 52px;
+  color: #434343;
+}
+@media (max-width: 1200px) {
+  .lisans p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 992px) {
+  .lisans p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .lisans p {
+    font-size: 17px;
+    line-height: 23px;
+  }
+}
+@media (max-width: 576px) {
+  .lisans p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+/* مرحلة ليسانس end  */
+/* نظام الدراسة system start  */
+.system {
+  /* min-height: 1133px;  */
+  background-color: #001a57;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+@media (max-width: 992px) {
+  .system {
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+}
+@media (max-width: 768px) {
+  .system {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.system h2 {
+  color: white;
+}
+
+.cycle-red-big{
+  width: 120px;
+  height:120px;
+  border-radius: 50%;
+  background-color: #e71618;
+  margin: auto;
+  margin-bottom: 38px;
+}
+.cycle-red-big img{
+  margin: 8px;
+
+}
+.system p {
+  font-family: DroidKufi-Regular;
+  font-size: 25px;
+  line-height: 50px;
+}
+@media (max-width: 1200px) {
+  .system p {
+    font-size: 22px;
+    line-height: 39px;
+  }
+}
+@media (max-width: 768px) {
+  .system p {
+    font-size: 22px;
+    line-height: 44px;
+    padding: 10px 10px 0px 16px;
+  }
+}
+@media (max-width: 576px) {
+  .system p {
+    font-size: 15px;
+    line-height: 32px;
+    padding: 10px 10px 0px 16px;
+  }
+}
+/* نظام الدراسة system end  */
+/* المواد المقررة .courses start */
+.courses {
+  padding-top: 50px;
+}
+@media (max-width: 768px) {
+  .courses {
+    padding-top: 32px;
+  }
+}
+@media (max-width: 576px) {
+  .courses {
+    padding-top: 32px;
+  }
+}
+/* .table-container {
+  padding: 30px;
+} */
+.data {
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+  text-align: center;
+  direction: rtl;
+}
+@media (max-width: 576px) {
+  .data {
+    font-size: 12px;
+    margin: 8px;
+  }
+}
+
+th,
+td {
+  padding: 1em;
+  background: #fffef2;
+  border: 2px solid #abbed5;
+}
+th {
+  background-color: #2a5caa;
+  color: white;
+}
+.bg-dark th {
+  background-color: #0e1e63;
+}
+.table-head {
+  width: 20%;
+}
+
+/* المواد المقررة .courses end */
+/* التسجيل في الكلية  register start  */
+.register {
+  padding-top: 50px;
+}
+/* التسجيل في الكلية  register end  */
+
+.higher-educ {
+  /* background-color: #001a57; */
+  color: #515151;
+  padding-top: 100px;
+}
+/* footer start  */
+footer {
+  background-color: #001a57;
+  color: white;
+  padding-top: 42px;
+}
+
+@media (max-width: 576px) {
+  footer {
+    padding-top: 32px;
+  }
+}
+
+footer h2 {
+  color: white;
+}
+.contact {
+  overflow: hidden;
+  position: relative;
+  max-height: 506px;
+  max-width: 763px;
+}
+@media (max-width: 992px) {
+  .contact {
+    /* margin: 20px 4px; */
+  }
+}
+@media (max-width: 768px) {
+  .contact {
+    margin: 20px 4px;
+  }
+}
+@media (max-width: 576px) {
+  .contact {
+    margin: 20px 18px;
+  }
+}
+.fa-ul {
+  direction: ltr;
+  margin-left: 30%;
+  margin-top: 15px;
+  text-align: left;
+}
+@media (max-width: 1200px) {
+  .fa-ul {
+    margin-left: 26%;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 992px) {
+  .fa-ul {
+    margin-left: 35%;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .fa-ul {
+    margin-left: 28%;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 576px) {
+  .fa-ul {
+    margin-left: 25%;
+  }
+}
+.fa-ul > li {
+  margin: 22px 0;
+}
+@media (max-width: 1200px) {
+  .fa-ul > li {
+    margin: 16px 0;
+  }
+}
+.fa-ul li span {
+  margin-left: 28px;
+}
+
+@media (max-width: 576px) {
+  .fa-ul > li {
+    margin: 12px;
+  }
+}
+/* GOOGLE MAP start */
+.map-container {
+  overflow: hidden;
+  padding-bottom: 72%;
+  position: relative;
+  max-height: 506px;
+  max-width: 763px;
+  margin-bottom: 40px;
+}
+@media (max-width: 1200px) {
+  .map-container {
+    padding-bottom: 84%;
+  }
+}
+@media (max-width: 768px) {
+  .map-container {
+    margin: 6%;
+  }
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/* end google map  */
+.footer-line-red {
+  height: 133px;
+  background-color: #9e0002;
+}
+@media (max-width: 768px) {
+  .footer-line-red {
+    height: 86px;
+  }
+}
+@media (max-width: 576px) {
+  .footer-line-red {
+    height: 66px;
+  }
+}
+
+/* .copyright start  */
+.copyright {
+  background-color: #232323;
+  height: 84px;
+  font-family: Gill Sans;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 84px;
+}
+@media (max-width: 768px) {
+  .copyright {
+    font-size: 16px;
+    line-height: 70px;
+    height: 70px;
+  }
+}
+@media (max-width: 576px) {
+  .copyright {
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+  }
+}
+
+/* footer end  */
+
+/*____________________________________________________________________ page heigh education */
+
+/* الدراسات العليا higher-educ start  */
+.higher-educ {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.higher-educ p {
+  font-family: DroidKufi-Regular;
+  font-size: 32px;
+  line-height: 64px;
+  text-overflow: unset;
+  padding: 16px 0;
+}
+
+@media (max-width: 1200px) {
+  .higher-educ p {
+    font-size: 22px;
+    line-height: 39px;
+  }
+}
+@media (max-width: 768px) {
+  .higher-educ p {
+    font-size: 22px;
+    line-height: 44px;
+    padding: 10px 10px 0px 16px;
+  }
+}
+@media (max-width: 576px) {
+  .higher-educ p {
+    font-size: 15px;
+    line-height: 32px;
+    padding: 10px 10px 0px 16px;
+  }
+}
+
+/* الدراسات العليا higher-educ end   */
+
+/* master-steps start  */
+.master-steps {
+  background-color: #fffef2;
+  direction: rtl;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.master-steps h3 {
+  color: #e71618;
+  font-size: 43px;
+  font-family: droid-sans-arabic;
+}
+@media (max-width: 768px) {
+  .master-steps h3 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 576px) {
+  .master-steps h3 {
+    font-size: 18px;
+  }
+}
+.master-steps p {
+  direction: rtl;
+  font-size: 24px;
+  font-family: droid-sans-arabic;
+}
+@media (max-width: 1200px) {
+  .master-steps p {
+    font-size: 22px;
+    line-height: 39px;
+  }
+}
+@media (max-width: 768px) {
+  .master-steps p {
+    font-size: 22px;
+    line-height: 44px;
+    padding: 10px 10px 0px 16px;
+  }
+}
+@media (max-width: 576px) {
+  .master-steps p {
+    font-size: 15px;
+    line-height: 32px;
+    padding: 10px 10px 0px 16px;
+  }
+}
+
+.master-steps ul {
+  direction: rtl;
+  font-size: 24px;
+  font-family: droid-sans-arabic;
+}
+@media (max-width: 1200px) {
+  .master-steps ul {
+    font-size: 22px;
+    line-height: 39px;
+  }
+}
+@media (max-width: 768px) {
+  .master-steps ul {
+    font-size: 22px;
+    line-height: 44px;
+    padding: 10px 10px 0px 16px;
+  }
+}
+@media (max-width: 576px) {
+  .master-steps ul {
+    font-size: 15px;
+    line-height: 32px;
+    padding: 10px 10px 0px 16px;
+  }
+}
+
+.notic {
+  color: #e71618;
+  font-family: droid-sans-arabic;
+}
+.master-steps h4 {
+  color: #0e1e63;
+  font-size: 32px;
+  font-family: droid-sans-arabic;
+}
+.h4-hi-edu {
+  color: #0e1e63;
+  font-size: 32px;
+  font-family: droid-sans-arabic;
+}
+.data-tafser {
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+  text-align: center;
+}
+.data-tafser th,
+td {
+  padding: 1em;
+  background: #fffef2;
+  border: 2px solid #abbed5;
+}
+.data-tafser th {
+  background-color: #2a5caa;
+  color: white;
+}
+.data-tafser td {
+  color: #2a5caa;
+}
+
+/* step3 start  */
+.step3 {
+  background-color: #efefef;
+  color: #515151;
+  padding-top: 50px;
+}
+.step3 h3 {
+  color: #e71618;
+  font-size: 43px;
+  font-family: droid-sans-arabic;
+}
+
+@media (max-width: 768px) {
+  .step3 h3 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 576px) {
+  .step3 h3 {
+    font-size: 18px;
+  }
+}
+.step3 p {
+  font-family: DroidKufi-Regular;
+  font-size: 28px;
+  line-height: 45px;
+  text-overflow: unset;
+  padding: 3px 0;
+ }
+@media (max-width: 1200px) {
+  .step3 p {
+    font-size: 26px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+  .step3 p {
+    font-size: 22px;
+    line-height: 44px;
+    padding: 10px 10px 0px 16px;
+  }
+}
+@media (max-width: 576px) {
+  .step3 p {
+    font-size: 15px;
+    line-height: 32px;
+    padding: 10px 10px 0px 16px;
+  }
+}
+/* step3 end  */
+
+/* مرحلة الدكتوراه  phd start  */
+.phd {
+  background-color: #001a57;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.phd h2 {
+  color: white;
+}
+.phd ul {
+  font-size: 24px;
+  font-family: DroidKufi-Regular;
+  direction: rtl;
+}
+
+@media (max-width: 1200px) {
+  .phd ul {
+    font-size: 26px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+  .phd ul {
+    font-size: 22px;
+    line-height: 44px;
+    padding: 10px 10px 0px 16px;
+  }
+}
+@media (max-width: 576px) {
+  .phd ul {
+    font-size: 15px;
+    line-height: 32px;
+    padding: 10px 10px 0px 16px;
+  }
+}
+/* مرحلة الدكتوراه  phd end  */
+/* شروط التسجيل  .conditions start  */
+.conditions {
+  background-color: #f8f8f8;
+  direction: rtl;
+  font-size: 32px;
+  font-family: DroidKufi-Regular;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+  .conditions ul {
+    font-size: 26px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+  .conditions ul {
+    font-size: 22px;
+    line-height: 44px;
+    padding: 10px 10px 0px 16px;
+  }
+}
+@media (max-width: 576px) {
+  .conditions ul {
+    font-size: 15px;
+    line-height: 32px;
+    padding: 10px 10px 0px 16px;
+  }
+}
+
+/* شروط التسجيل  .conditions end  */
+/* ---------------------------------------------- form page */
+form {
+  margin-bottom: 20px;
+}
